@@ -1,0 +1,55 @@
+/*All*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+/*Body*/
+body{
+    background-color: #d9b886 !important;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+/*Title*/
+.start{
+    padding: 2rem;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+
+/*Content*/
+.content{
+    padding: 2rem;
+
+}
+
+.image{
+    max-width: 230px;
+    max-height: 230px;
+    width: auto;
+    height: auto;
+}
+
+.player, .dicee, #wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+.button{
+    font-family: 'Courier New', Courier, monospace;
+    color: #CC5C50;
+}
+
